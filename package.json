@@ -1,0 +1,21 @@
+{
+  "name": "timestamp_microservice",
+  "version": "0.0.2",
+  "description": "Timestamp Unix and Natural.",
+  "main": "server.js",
+  "repository": "https://github.com/MHayesEire/timestamp_microservice.git",
+  "author": "Martin Hayes",
+  "dependencies": {
+    "async": "0.2.8",
+    "socket.io": "0.9.14",
+    "body-parser": "1.14.2", 
+    "express": "4.13.3", 
+    "moment": "2.10.6",
+    "ejs" : "2.4.2"
+  },
+   "engines": {
+ "node": "4.4.5",
+    "npm": "2.15.5"
+  }
+  
+}

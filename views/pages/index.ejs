@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Timestamp Results</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<style>
+body { padding-top:50px; }
+</style>    
+</head>
+<body>
+<div class="container">
+    <h1><span id="val">Results - <%=tagline %>
+    </span></h1>
+<h2>Date Input:</h2>
+<ul  class="jumbotron">
+    <li>Unix: <%=unix %></li>
+    <li>Natural: <%=natural %></li>
+</ul>
+<form>
+<input type="button" value="Back" 
+ onClick="history.go(-1);return true;"> 
+</form>
+</div>
+</body>
+</html>
